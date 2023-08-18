@@ -7,7 +7,8 @@ const Button = ({link}) => {
     to={link==="home"? "/" : "".concat(link)}
     className="bg-slate-700 mx-3 py-1 px-3 rounded mt-2 
     transition-all ease-in duration-100
-    hover:bg-slate-800"
+    hover:bg-slate-800
+    active:bg-slate-900 font-extralight"
     >{ link }</Link>
   )
 }
