@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <div>
-      <h1 className="text-5xl text-center font-extralight tracking-widest">portfolioli</h1>
+      <h1 className="italic text-5xl shadow-black drop-shadow-xl font-extralight tracking-widest w-min mx-auto">oli.space</h1>
     </div>
   )
 }

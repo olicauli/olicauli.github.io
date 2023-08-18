@@ -13,11 +13,51 @@
     }
 }
 
+body 
+{
+    @apply bg-slate-900 bg-fixed;
+    max-height: 100%;
+    background-image: url('./assets/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg');
+    background-size:cover;
+}
+
 * {
     @apply text-white;
 }
 
 h1 
 {
-    @apply text-xl font-mono;
+    @apply text-xl font-mono italic text-red-400;
+}
+
+.main-layout-grid 
+{
+    @apply grid;
+    grid-template-rows: 130px 1fr 36px;
+    grid-template-columns: 1fr;
+}
+
+nav 
+{
+    grid-column: span 1 / span 1;
+}
+
+span 
+{
+    @apply font-medium tracking-widest text-teal-100;
+}
+
+.main-content 
+{
+    max-height: 100%;
+    height:fit-content;
+    overflow:scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+}
+
+.main-content::-webkit-scrollbar
+{
+    display: none;
 }

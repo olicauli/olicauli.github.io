@@ -5,18 +5,16 @@ import { Outlet } from "react-router-dom"
 
 const Layout = () => {
   return (
-    <div className="grid grid-cols-12 grid-rows-12 p-4 h-screen bg-slate-900">
-      <div className="col-span-12 border-solid border-4 border-red-400 rounded">
+    <div className="main-layout-grid mx-auto h-screen container bg-slate-900 bg-opacity-70 overflow-auto">
+      <div className=" border-solid bg-slate-950 bg-opacity-80 p-2 row-span-1 rounded-xl mb-5">
         <Header></Header>
-      </div>
-      <div className="col-span-2 row-span-10 place-content-evenly border-solid border-4 border-red-400">
         <Nav></Nav>
       </div>
-      <div className="font-extralight tracking-wider pl-2 col-span-10 row-span-10 border-solid border-4 border-red-400">
+      <div className="container main-content font-extralight tracking-wider pl-2 row-span-1 rounded-xl justify-self-center overflow-fit mx-3 w-9/12 sm:w-11/12">
         <Outlet />
       </div>
         
-      <div className="col-span-12 border-solid border-4 border-red-400">
+      <div className=" max-h-10 py-1 bg-slate-950 rounded-lg">
         <Footer></Footer>
       </div>
         
