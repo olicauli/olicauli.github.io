@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div>
-      <p className="">written by Oliver Davies</p>
+      <p className="text-center">written by Oliver Davies using React and Tailwind</p>
     </div>
   )
 }

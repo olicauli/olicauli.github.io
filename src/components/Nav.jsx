@@ -1,18 +1,15 @@
-//import Button from "./Button"
-import { Link } from 'react-router-dom'
+import Button from './Button'
 
 const Nav = () => {
   return (
-    <div>
-      <nav>
-        <p>
-        <Link to="/">home</Link>
-        <Link to="/about">about</Link>
-        <Link to="/contact">contact</Link>
-        <Link to="/portfolio">portfolio</Link>
-        </p>
+    <>
+      <nav className="[&>a]:bg-slate-700 flex flex-col">
+        <Button link="home"/>
+        <Button link="about"/>
+        <Button link="contact"/>
+        <Button link="portfolio"/>
       </nav>
-    </div>
+    </>
   )
 }
 
