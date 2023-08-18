@@ -30,6 +30,11 @@ h1
     @apply text-xl font-mono italic text-red-400;
 }
 
+.headers
+{
+    @apply text-3xl lg:text-5xl;
+}
+
 .main-layout-grid 
 {
     @apply grid;

@@ -1,12 +1,12 @@
 const About = () => {
   return (
     <div>
-      <h1 className="text-5xl">who am i?</h1>
+      <h1 className="headers">who am i?</h1>
       <p>hello! my name is <span>oliver davies</span>.</p> 
       <p>i'm <span>software engineering student</span> currently studying at the university of texas at dallas.</p>
       <br/>
       <h1>interests</h1>
-      <p>i enjoy most things--i like to code, i like to make digital art, i like to produce music. in general, i have a deep passion for learning.
+      <p>i enjoy most things--i like to code, i like to make digital art, i like to produce music. in general, i have a passion for learning.
         this website exists as a display case for my various coding projects.</p>
       {/* <h1>skills</h1>
       <ul>

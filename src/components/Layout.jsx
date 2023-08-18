@@ -5,8 +5,9 @@ import { Outlet } from "react-router-dom"
 
 const Layout = () => {
   return (
-    <div className="main-layout-grid mx-auto h-screen container bg-slate-900 bg-opacity-70 overflow-auto">
-      <div className=" border-solid bg-slate-950 bg-opacity-80 p-2 row-span-1 rounded-xl mb-5">
+    <div className='max-w-full max-h-full bg-slate-950 bg-opacity-80 '>
+      <div className="main-layout-grid gap-1 mx-auto h-screen container bg-slate-950 bg-opacity-0 overflow-auto">
+      <div className=" border-solid bg-slate-950 bg-opacity-0 rounded p-2 row-span-1 mb-5 border-b-4 border-fuchsia-300 shadow-black shadow-2xl">
         <Header></Header>
         <Nav></Nav>
       </div>
@@ -14,11 +15,13 @@ const Layout = () => {
         <Outlet />
       </div>
         
-      <div className=" max-h-10 py-1 bg-slate-950 rounded-lg">
+      <div className=" max-h-10 py-1 bg-slate-950 bg-opacity-0 rounded border-teal-300 border-t-4">
         <Footer></Footer>
       </div>
         
+      </div>
     </div>
+    
   )
 }
 

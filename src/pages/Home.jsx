@@ -3,7 +3,7 @@ import Button from '../components/Button'
 const Home = () => {
   return (
     <div className="">
-      <h1 className=' text-5xl'>hi, i'm oli!</h1>
+      <h1 className='headers'>hi, i'm oli!</h1>
       <h1>welcome to my portfolio.</h1>
       <p>still a work in progress :]</p>
       <br/>
