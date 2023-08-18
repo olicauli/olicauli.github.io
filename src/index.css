@@ -16,3 +16,8 @@
 * {
     @apply text-white;
 }
+
+h1 
+{
+    @apply text-xl font-mono;
+}

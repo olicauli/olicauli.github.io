@@ -1,7 +1,15 @@
+import Button from '../components/Button'
+
 const Home = () => {
   return (
-    <div>
-      <p>hello! i'm software engineering student from the university of texas at dallas.</p>
+    <div className="">
+    <h1>welcome to my portfolio.</h1>
+    <br/>
+    <Button link="about"/>
+    <Button link="contact"/>
+    <br/>
+    <br/>
+    <h1>recent projects</h1>
     </div>
   )
 }

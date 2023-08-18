@@ -3,7 +3,7 @@ import Button from './Button'
 const Nav = () => {
   return (
     <>
-      <nav className="[&>a]:bg-slate-700 flex flex-col">
+      <nav className="[&>a]:bg-slate-700 flex flex-wrap overscroll-auto">
         <Button link="home"/>
         <Button link="about"/>
         <Button link="contact"/>
