@@ -79,7 +79,7 @@ li::after
     content: " ";
 }
 
-footer a, li a {
+footer a, li a, .link {
     @apply text-red-300 hover:text-red-100 active:text-red-400 transition-all duration-300;
 }
 

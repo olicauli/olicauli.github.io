@@ -10,7 +10,7 @@ const Contact = () => {
       <p>olicauli@pm.me</p>
       <br/>
       <h1>other places you can find me</h1>
-      <ul className="inline flex flex-wrap gap-4 py-1">
+      <ul className="inline flex flex-wrap gap-6 py-1">
         <li><a href="#"><FontAwesomeIcon icon={faDiscord} size='2xl'/></a></li>
         <li><a href="#"><FontAwesomeIcon icon={faGithub} size='2xl' /></a></li>
         <li><a href="#"><FontAwesomeIcon icon={faItchIo} size='2xl' /></a></li>
