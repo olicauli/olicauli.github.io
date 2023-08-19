@@ -1,7 +1,9 @@
+import Project from './Project'
+
 const ProjectDisplay = () => {
   return (
     <div>
-      <p>jkawgnjkawnjg</p>
+      <Project/> <Project/> <Project/> <Project/>
     </div>
   )
 }
