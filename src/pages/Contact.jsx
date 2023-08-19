@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDiscord, faGithub, faItchIo, faYoutube, faSoundcloud } from '@fortawesome/free-brands-svg-icons'
+import { faMessage } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
   return (
@@ -15,7 +16,6 @@ const Contact = () => {
         <li><a href="#"><FontAwesomeIcon icon={faItchIo} size='2xl' /></a></li>
         <li><a href="#"><FontAwesomeIcon icon={faYoutube} size='2xl' /></a></li>
         <li><a href="#"><FontAwesomeIcon icon={faSoundcloud} size='2xl' /></a></li>
-        <li><a href="#">matrix</a></li>
       </ul>
     </div>
   )
