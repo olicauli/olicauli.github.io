@@ -13,7 +13,7 @@ const About = () => {
       <ul>
         <li><span>programming languages:</span> c++, java, javascript, bash, applesoft BASIC</li> <br/>
         <li><span>frameworks:</span> discordjs, reactjs, tailwindcss, a little bit of phaserjs</li> <br/>
-        <li>i can use windows, mac, and linux systems. my computer currently runs nobara linux.</li>
+        <li>i can use windows, mac, and linux systems. my computer currently dual boots windows 11 and nobara linux.</li>
       </ul>
       <br/>
       <h1>work</h1>
