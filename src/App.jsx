@@ -4,6 +4,7 @@ import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
 import NoPage from './pages/NoPage.jsx'
+import { library } from '@fortawesome/fontawesome-svg-core'
 
 function App() {
 

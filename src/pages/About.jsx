@@ -11,8 +11,8 @@ const About = () => {
       <br/>
       <h1>skills</h1>
       <ul>
-        <li><span>programming languages:</span> c++, java, javascript, bash, applesoft BASIC</li>
-        <li><span>frameworks:</span> discordjs, reactjs, tailwindcss, a little bit of phaserjs</li>
+        <li><span>programming languages:</span> c++, java, javascript, bash, applesoft BASIC</li> <br/>
+        <li><span>frameworks:</span> discordjs, reactjs, tailwindcss, a little bit of phaserjs</li> <br/>
         <li>i can use windows, mac, and linux systems. my computer currently runs nobara linux.</li>
       </ul>
       <br/>

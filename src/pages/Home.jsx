@@ -1,4 +1,3 @@
-import Button from '../components/Button'
 import ProjectDisplay from '../components/projects/ProjectDisplay'
 
 const Home = () => {

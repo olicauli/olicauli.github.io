@@ -19,10 +19,12 @@ body
     max-height: 100%;
     background-image: url('./assets/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg');
     background-size:cover;
+    @apply text-white;
 }
 
-* {
-    @apply text-white;
+h1::before
+{
+    content: "> ";
 }
 
 h1 
@@ -67,6 +69,21 @@ span
     display: none;
 }
 
-footer a {
+li 
+{
+    @apply inline;
+}
+
+li::after
+{
+    content: " ";
+}
+
+footer a, li a {
     @apply text-red-300 hover:text-red-100 active:text-red-400 transition-all duration-300;
+}
+
+li a > svg 
+{
+    @apply text-cyan-100 hover:text-cyan-50 active:text-cyan-300 transition-all duration-300;
 }
