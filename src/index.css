@@ -87,9 +87,14 @@ footer a, li a, .link {
     @apply text-red-300 hover:text-red-100 active:text-red-400 transition-all duration-300;
 }
 
-li a > svg 
+li a > svg, .blue-link
 {
     @apply text-cyan-200 hover:text-cyan-50 active:text-cyan-300 transition-all duration-300;
+}
+
+.footer-links a
+{
+    @apply pr-2 w-fit text-xs;
 }
 
 .project 
