@@ -20,7 +20,7 @@ const Project = ({title, desc, link, image}) => {
 
 Project.defaultProps = 
 {
-  image: '/src/assets/europeana-5TK1F5VfdIk-unsplash.jpg'
+  image: '/assets/europeana-5TK1F5VfdIk-unsplash.jpg'
 }
 
 Project.propTypes = 

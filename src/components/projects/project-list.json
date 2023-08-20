@@ -2,25 +2,25 @@
     {
       "title": "oli.space",
       "desc": "this website! written in React and TailwindCSS.",
-      "link": "https://github.com/olicauli/portfolio-site",
-      "image": "/src/assets/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg"
+      "link": "https://github.com/olicauli/olicauli.github.io",
+      "image": "/assets/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg"
     },
     {
         "title": "halo's dreamspace",
         "desc": "an unfinished prototype PhaserJS game.",
-        "link": "https://github.com/olicauli/portfolio-site",
-        "image": "/src/assets/dreamspace.png"
+        "link": "https://github.com/olicauli/dreamspace-game",
+        "image": "/assets/dreamspace.png"
 
     },
     {
         "title": "oli's hellhole",
         "desc": "an early 2000s themed website written in pure HTML and CSS, and using the Jekyll Static Site Generator.",
         "link": "https://olicauli.neocities.org/",
-        "image": "/src/assets/hellhole3.png"
+        "image": "/assets/hellhole3.png"
     },
     {
         "title": "me and michael mondays",
         "desc": "a discord bot using the DiscordJS framework and Google Sheets API that posts a daily question every day.",
-        "link": "#"
+        "link": "https://github.com/olicauli/qotd-michael-bot"
     }
   ]
