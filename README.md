@@ -10,7 +10,7 @@ a personal portfolio for my coding projects.
 4. [licenses](#license-wip)
 
 ## Description
-a simple portfolio website coded in React and TailwindCSS, and Vite to build, test and deploy.
+a simple portfolio website coded in React and TailwindCSS, and using Vite to build, test and deploy.
 
 ## Set up for Development
 1. clone the repo.
