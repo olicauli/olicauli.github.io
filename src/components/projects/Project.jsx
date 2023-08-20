@@ -9,7 +9,7 @@ const Project = ({title, desc, link, image}) => {
   }
 
   return (
-    <a href={link} className='fade-in-3 w-80 h-40  rounded-xl project text-ellipsis overflow-clip bg-local' style={backgroundImg}>
+    <a href={link} className='project fade-in-3' style={backgroundImg}>
       <div className='bg-red-950 bg-opacity-20 h-full w-full' >
         <h2 className='text-center font-semibold mx-auto h-fit px-2 py-1 mb-1 bg-red-400 bg-opacity-100 rounded text-red-50 tracking-widest'>{ title }</h2>
         <p className='text-center text-red-100 tracking-widest text-ellipsis '> { desc }</p>

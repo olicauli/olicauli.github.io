@@ -1,7 +1,7 @@
+@import url('animations.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('animations.css');
 
 @layer utilities {
     .grid-rows-12
@@ -90,4 +90,14 @@ footer a, li a, .link {
 li a > svg 
 {
     @apply text-cyan-200 hover:text-cyan-50 active:text-cyan-300 transition-all duration-300;
+}
+
+.project 
+{
+    @apply w-80 h-40 rounded-xl text-ellipsis overflow-clip bg-local transition-all duration-300;
+}
+
+.project:hover h2 
+{
+    @apply bg-red-300 text-white bg-red-400 transition-all duration-300;
 }
