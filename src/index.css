@@ -94,10 +94,10 @@ li a > svg
 
 .project 
 {
-    @apply w-80 h-40 rounded-xl text-ellipsis overflow-clip bg-local transition-all duration-300;
+    @apply w-80 h-40 rounded-xl text-ellipsis overflow-clip bg-local transition-all duration-200 ease-in hover:scale-105 active:scale-100;
 }
 
-.project:hover h2 
+.project:active h2 
 {
-    @apply bg-red-300 text-white bg-red-400 transition-all duration-300;
+    @apply bg-red-300 duration-500 transition-all;
 }
