@@ -20,7 +20,7 @@ a simple portfolio website coded in React and TailwindCSS, and using Vite to bui
 ## Deploying
 1. run the command `npm run build`
 2. to set up on github pages, open the repo on github and enter the `Actions` tab.
-3. select 'create a new workflow' and [follow the steps of this guide](#https://vitejs.dev/guide/static-deploy.html#github-pages), pastimg the yml code and saving the workflow.
+3. select 'create a new workflow' and [follow the steps of this guide](#https://vitejs.dev/guide/static-deploy.html#github-pages) (https://vitejs.dev/guide/static-deploy.html#github-pages), pastimg the yml code and saving the workflow.
 4. go the project settings and find the github pages tab. deploy using this workflow.
 
 ## Licenses (WIP)
