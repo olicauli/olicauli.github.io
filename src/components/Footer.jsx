@@ -1,5 +1,5 @@
-import Socials from './Socials'
-import ExternalLink from './ExternalLink'
+import Socials from './Socials.jsx'
+import ExternalLink from './ExternalLink.jsx'
 
 const Footer = () => {
   return (

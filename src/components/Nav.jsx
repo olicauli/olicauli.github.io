@@ -1,4 +1,4 @@
-import Button from './Button'
+import Button from './Button.jsx'
 import { faHouse, faAddressCard, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const Nav = () => {

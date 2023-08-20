@@ -1,4 +1,4 @@
-import Project from './Project'
+import Project from './Project.jsx'
 import projects from './project-list.json'
 
 const ProjectDisplay = () => {

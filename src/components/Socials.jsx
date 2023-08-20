@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import ExternalLink from './ExternalLink'
+import ExternalLink from './ExternalLink.jsx'
 import { faDiscord, faGithub, faItchIo, faYoutube, faSoundcloud } from '@fortawesome/free-brands-svg-icons'
 import links from '../links.json'
 

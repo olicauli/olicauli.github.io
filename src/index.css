@@ -18,7 +18,7 @@ body
 {
     @apply bg-slate-900 bg-fixed;
     max-height: 100%;
-    background-image: url('./assets/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg');
+    background-image: url('/assets/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg');
     background-size:cover;
     @apply text-white;
 }
