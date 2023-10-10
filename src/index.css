@@ -30,7 +30,7 @@ h1::before
 
 h1 
 {
-    @apply text-xl font-mono italic text-red-400;
+    @apply text-xl lg:pt-2 font-mono italic text-red-400;
 }
 
 .headers
@@ -43,6 +43,17 @@ h1
     @apply grid;
     grid-template-rows: 130px 1fr 36px;
     grid-template-columns: 1fr;
+}
+
+/* .main-layout-grid > *
+{
+    @apply max-w-5xl;
+    @apply justify-self-center
+} */
+
+.container-max-w 
+{
+    @apply max-w-5xl;
 }
 
 nav 
@@ -99,7 +110,7 @@ li a > svg, .blue-link
 
 .project 
 {
-    @apply w-80 h-40 rounded-xl text-ellipsis overflow-clip bg-local transition-all duration-200 ease-in hover:scale-105 active:scale-100;
+    @apply w-80 h-40 lg:w-96 lg:h-48 rounded-xl text-ellipsis overflow-clip bg-local transition-all duration-200 ease-in hover:scale-105 active:scale-100;
 }
 
 .project:active h2 
