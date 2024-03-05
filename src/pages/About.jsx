@@ -10,7 +10,7 @@ const About = () => {
       <br/>
       <div className="fade-in">
       <h1>interests</h1>
-      <p>i enjoy most things--i like to code, i like to make digital art, i like to produce music. in general, i have a passion for learning.
+      <p>i enjoy an eclectic range of different things—i like to code, i like to make digital art, i like to produce music. in general, i have a passion for learning.
         this website serves as a display case for my various projects.</p>
       <br/>
       <h1>skills</h1>
@@ -21,7 +21,8 @@ const About = () => {
       </ul>
       <br/>
       <h1>work</h1>
-      <p>currently, i work as a student assistant for a <span>media archeology lab</span>, where i research and maintain old computers and old computer software
+      <span>-> june 2023 - present</span>
+      <p>currently, i work as a <span>student researcher</span> for a <span>media archeology lab</span>, where i research and maintain old computers and old computer software
         from the early 1980s up to the mid 2000s.</p>
         <br/>
       </div>

@@ -23,7 +23,7 @@ body
     max-height: 100%;
     /* background-image: url('/assets/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg'); */
     background-size:cover;
-    @apply text-white;
+    @apply text-purple-50;
 }
 
 h1::before
@@ -113,7 +113,7 @@ footer *
 
 .button 
 {
-    @apply text-purple-200 hover:bg-red-950 active:bg-transparent;
+    @apply text-purple-200 hover:bg-pink-950 active:bg-transparent;
 }
 
 .footer-links a
