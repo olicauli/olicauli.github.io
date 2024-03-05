@@ -14,11 +14,14 @@
     }
 }
 
+/* to-do: make variables for text colours for easier editing */
+
 body 
 {
-    @apply bg-slate-900 bg-fixed;
+    @apply bg-gray-950 bg-fixed;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1036%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/rect%3e%3cpath d='M759.8495931980351 254.04523952404068L792.8805174045162 99.37193356219646 660.664202572431 139.7945175957627z' fill='rgba(142%2c 28%2c 28%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M139.06825214758754 445.8886478099376L200.1231002976308 386.92866630389034 81.1557039635383 324.8263848318491z' fill='rgba(142%2c 28%2c 28%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M893.3531367051198 123.8967455341786L945.6011147410484 76.85245480424383 848.9106896281819 22.002633115318446z' fill='rgba(142%2c 28%2c 28%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M201.60229058059144 103.53237188610717L239.74123336169495 269.4515423390634 350.33746337622136 169.8702495498897z' fill='rgba(142%2c 28%2c 28%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M79.60808592135069 262.8190456493763L107.09902172404574 166.94675905635432-16.26420067167126 235.32810984668123z' fill='rgba(142%2c 28%2c 28%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M187.00909192415597 134.72719245881592L226.23801899748477 66.78069764139617 104.70381323469077 41.91055444011283z' fill='rgba(142%2c 28%2c 28%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M184.61696936872917 60.565013136422195L225.9882281730421 16.199769700343822 138.75473361676808-23.6744967880864z' fill='rgba(142%2c 28%2c 28%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M438.447%2c256.61C483.32%2c252.595%2c524.675%2c232.057%2c547.43%2c193.174C570.425%2c153.881%2c570.351%2c106.562%2c550.132%2c65.771C527.126%2c19.359%2c490.119%2c-23.033%2c438.447%2c-26.691C381.026%2c-30.756%2c325.637%2c-1.326%2c295.547%2c47.749C264.059%2c99.104%2c255.471%2c166.538%2c289.487%2c216.255C320.621%2c261.76%2c383.529%2c261.524%2c438.447%2c256.61' fill='rgba(142%2c 28%2c 28%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1281.217523286186 539.8756650892173L1407.660191746951 444.5942801648028 1185.9361383617716 413.43299662845203z' fill='rgba(142%2c 28%2c 28%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1036'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
     max-height: 100%;
-    background-image: url('/assets/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg');
+    /* background-image: url('/assets/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg'); */
     background-size:cover;
     @apply text-white;
 }
@@ -63,7 +66,7 @@ nav
 
 span 
 {
-    @apply font-medium tracking-widest text-teal-100;
+    @apply font-medium tracking-widest text-purple-300;
 }
 
 .main-content 
@@ -100,7 +103,17 @@ footer a, li a, .link {
 
 li a > svg, .blue-link
 {
-    @apply text-cyan-200 hover:text-cyan-50 active:text-cyan-300 transition-all duration-300;
+    @apply text-purple-300 hover:text-purple-50 active:text-purple-400 transition-all duration-300;
+}
+
+footer *
+{
+    @apply text-purple-200 text-center text-xs  italic tracking-widest font-extralight;
+}
+
+.button 
+{
+    @apply text-purple-200 hover:bg-red-950 active:bg-transparent;
 }
 
 .footer-links a
