@@ -3,8 +3,8 @@ const About = () => {
     <div>
       <h1 className="headers move">who am i?</h1>
       <div className="fade-in-2">
-      <p>i go by <span>olicauli</span>.</p> 
-      <p>i'm a third year <span>software engineering student</span>.</p>
+      <p>i go by <span>oliver davies,</span> or <span>olicauli</span>.</p> 
+      <p>i'm a fourth year <span>software engineering student</span>.</p>
       </div>
       
       <br/>
@@ -15,8 +15,9 @@ const About = () => {
       <br/>
       <h1>skills</h1>
       <ul>
-        <li><span>programming languages:</span> c++, java, javascript, bash, applesoft BASIC, liquid</li> <br/>
-        <li><span>frameworks:</span> discordjs, reactjs, tailwindcss, jekyll, a little bit of phaserjs</li> <br/>
+        <li><span>programming languages:</span> c++, c, java, python, javascript, bash, racket, prolog, level II BASIC, liquid</li> <br/>
+        <li><span>frameworks:</span> discordjs, reactjs, tailwindcss, jekyll, wordpress, divi, a little bit of phaserjs</li> <br/>
+        <li><span>tools:</span> git, flex (lexical analyzer tool)</li><br/>
         <li>i can use windows, mac, and linux systems. my computer currently dual boots windows 11 and nobara linux.</li>
       </ul>
       <br/>

@@ -1,5 +1,11 @@
 [
     {
+      "title": "media archeology lab website",
+      "desc": "created in wordress, a collaboration between a UI/UX grad student and myself.",
+      "link": "https://labs.utdallas.edu/mediaarchaeologylab/",
+      "image": "/assets/mal-site-3.png"
+    },
+    {
       "title": "oli.space",
       "desc": "this website! written in React and TailwindCSS.",
       "link": "https://github.com/olicauli/olicauli.github.io",
